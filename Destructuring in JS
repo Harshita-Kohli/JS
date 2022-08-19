@@ -20,8 +20,11 @@ console.log(rest);
 // expected output: Array [30,40,50]
 
 //OBJECT DESTRUCTURING:
-const obj = { a: 1, b: 2 };
+const obj = { a: 1, b: 2, c:3 };
 const { a, b } = obj;  
 // is equivalent to:
 // const a = obj.a;
 // const b = obj.b;
+console.log(a); //op: 1 
+console.log(b); //op:2
+console.log(c); //op:undefined, coz we have not pulled out the 'c' property from the object
