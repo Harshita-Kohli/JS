@@ -8,10 +8,10 @@ Q. Some common things to know about Shadowing?
 - There is no hierarchy in memory scopes(global, script, block)
 
 
-Q. Why is a new Lexical Environment for each iteration of for loop?
+Q. Why is a new Lexical Environment for each iteration of for loop? **What is Closure Capture and Variable Capture?**
 - In JavaScript, when you declare a variable with let inside a block, such as a for loop, a new lexical environment (scope) is created for each iteration of the loop. This behavior ensures that each iteration of the loop has its own distinct variable i, scoped only to that iteration.
 
-- The reason for this behavior is to prevent a common issue known as "closure capture" or "variable capture" in JavaScript. Consider the following example: 
+- The reason for this behavior is to prevent a common issue known as **"closure capture" or "variable capture**" in JavaScript. Consider the following example: 
 
   ```
   let functions = [];
