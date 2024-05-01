@@ -1,4 +1,4 @@
-[How Lexical Environment](https://www.webdevlog.com/p/how-js-works-lexical-environment)
+[How Lexical Environment- Read More](https://www.webdevlog.com/p/how-js-works-lexical-environment)
 
 Q. When does Illegal shadowing happen? 
 - While shadowing a variable, it should not cross the boundary of the scope, i.e. we can shadow var variable by let variable but cannot do the opposite. So, if we try to shadow let variable by var variable, it is known as Illegal Shadowing and it will give the error as “variable is already defined.”
